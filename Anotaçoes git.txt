@@ -1,7 +1,11 @@
-ctrl: l para limpar
+ctrl l: para limpar
 ls: para listar conteudos 
 cd ..: para voltar uma pagina
 git add: Quando um repositório é inicialmente clonado, todos os seus arquivos estarão monitorados e inalterados porque você simplesmente os obteve e ainda não os editou. Conforme você edita esses arquivos, o Git passa a vê-los como modificados, porque você os alterou desde seu último commit. Você seleciona esses arquivos modificados e então faz o commit de todas as alterações selecionadas e o ciclo se repete.
 git push: para adicionar ao repositorio remoto github
 git init:  Isso cria um novo subdiretório chamado .git que contem todos os arquivos necessários de seu repositório
 git clone: Você clona um repositório
+git commit: Armazena o conteúdo atual do índice em um novo commit, juntamente com uma mensagem de registro do usuário que descreve as mudanças.
+Se usa o commit depois de já ter feito o git add, para fazer o commit.
+git push: O git push é o comando em que você transfere commits a partir do seu repositório local para um repositório remoto.
+git status: E a principal ferramenta utilizada para determinar quais arquivos estão em quais estados.
